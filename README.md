@@ -1,6 +1,6 @@
 # kvScraper
  
-A python script which uses selenium undetected chromedriver, PostrgreSQL database, TELEGRAM API, reCaptcha V2 Verification.
+A python webscraper script which uses selenium undetected chromedriver, BeautifulSoup, PostrgreSQL database, TELEGRAM API, Bypasses Google's reCaptcha V2 Verification, CloudFlare's I'm Under Attack Mode (IUAM)
 
 Continiously checks new ads from the brokers' website, if a new ad appears, it sends a letter on the website to the owner of the property.
 
