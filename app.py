@@ -222,7 +222,7 @@ def check_real_estate():
                 # print(broker_name)
                 print(booked_check)
                 print(title)
-                time.sleep(120)
+                
                 wait = WebDriverWait(driver, 120)
                 element_cookie = iselement(driver, button_accept_cookies_xpath)
 
@@ -288,8 +288,6 @@ def check_real_estate():
 
                             print(">>>> SENDING TELEGRAM MESSAGE <<<<\n")
 
-                            time.sleep(15)
-
                             # send telegram message
                             message = "BING CHILLING!\U0001F976\U0001F976\U0001F976\n\nНовое объявление об аренде: " + \
                                       kv_url + "\n\n" + "Счетчик: " + str(counter) + "\n\n" + "Время отправки: " + \
@@ -333,8 +331,6 @@ def check_real_estate():
                                 dt = datetime.now()
                                 add_email_count()
                                 counter = read_email_count()
-
-                            time.sleep(15)
 
                             print(">>>> SENDING SELL TYPE TELEGRAM MESSAGE <<<<\n")
                             # send telegram message
