@@ -182,7 +182,7 @@ def check_real_estate():
     estate_list = []
 
     try:
-        database_url = 'postgres://uzzjqgth:p06TGymS7Npwx8tHHwqSV5HzfjcukDDL@rogue.db.elephantsql.com/uzzjqgth'
+        database_url = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
         connection = psycopg2.connect(database_url, sslmode='require')
         real_estate_db = connection.cursor()
         real_estate_db.execute(
